@@ -19,7 +19,10 @@ enum Role {
     ADMIN = "Admin",
     USER = "User",
     GUEST = "Guest"
-}           
+}
+let userRole: Role = Role.ADMIN;
+
+
 
 type students = {
     name: string;
@@ -32,3 +35,12 @@ let student: students = {
     age: 30,
     isActive: true
 };
+
+function greet(name: string): string {
+    return `Hello, ${name}!`;
+}
+
+function add(a: number, b: number): number {
+    return a + b;
+}
+
